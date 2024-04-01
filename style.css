@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #9873fe;
+}
+.box{
+    width: 30rem;
+    margin: 10rem auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-bottom: 20px;
+}
+img{
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    display: block;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+label{
+    display: block;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin: 2rem 0rem 1rem 3rem;
+}
+#amount{
+    margin: 0rem 0 2rem 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #02002c;
+    width: 80%;
+    color: #7a789d;
+}
+#amount:focus{
+    color: #9873fe;
+    border-color: #9873fe;
+}
+.dropdowns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    grid-column-gap: 0.5rem;
+    padding: 0 15px;
+}
+select{
+    transition: .3s linear ease-in-out;
+    border: none;
+    padding: 15px 15px 10px 10px;
+    font-size: 1rem;
+    width: 10rem;
+    transition: .3s linear ;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #9873fe;
+    color: white;
+}
+select:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+i{
+    font-size: 1rem;
+    color: black;
+}
+button{
+    margin: 20px 10px 20px 23px;
+    font-size: 1.1rem;
+    padding: 20px 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #02002c;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    cursor: pointer;
+}
+button:hover{
+    color: yellow;
+}
+#result{
+    background-color: #e5dbff;
+    color: #02002c;
+    font-size: 1.2rem;
+    width: 94%;
+    margin: 5px auto;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 15px;
+}
